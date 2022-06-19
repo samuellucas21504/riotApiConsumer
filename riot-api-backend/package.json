@@ -1,0 +1,11 @@
+{
+  "name": "riot-api-backend",
+  "version": "1.0.0",
+  "description": "Api that consumes riot-games Api backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Lucas",
+  "license": "ISC"
+}
