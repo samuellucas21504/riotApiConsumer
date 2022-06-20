@@ -1,6 +1,6 @@
 # Riot API Consumer
 
-This backend consists basically of a express server, with two controllers: match and summoner.
+This backend consists of a express server, with two controllers: match and summoner.
 
 Both controllers are used on the only endpoint of the site which is /:summonerName.
 
