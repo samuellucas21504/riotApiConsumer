@@ -1,5 +1,8 @@
 # Riot API Consumer
 
+This API consults the data the Riot API using a summoner name and returns a json with the summoner id, profileIconURL, puuid, the summoner rank
+data and the information of his 5 last matches.
+
 This backend consists of a express server, with two controllers: match and summoner.
 
 Both controllers are used on the only endpoint of the site which is /:summonerName.
