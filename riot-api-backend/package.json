@@ -1,11 +1,18 @@
 {
   "name": "riot-api-backend",
+  "type": "module",
   "version": "1.0.0",
   "description": "Api that consumes riot-games Api backend",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.js"
   },
   "author": "Samuel Lucas",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1"
+  }
 }
